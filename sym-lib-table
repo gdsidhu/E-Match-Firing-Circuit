@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Gate Driver")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Gate Driver/NCV81071BZR2G/NCV81071BZR2G.kicad_sym")(options "")(descr ""))
+  (lib (name "Current Sensor")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Hall Effect Current Sensor/TMCS1108A2UQDR/2025-10-27_14-45-09.kicad_sym")(options "")(descr ""))
+  (lib (name "Schottky Diode")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Schottky Diode/MBRS540T3G/MBRS540T3G.kicad_sym")(options "")(descr ""))
+)

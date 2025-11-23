@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCV81071BZR2G
+D Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP
+K
+F https://www.onsemi.com/pdf/datasheet/ncv81071-d.pdf
+$ENDCMP
+#
+#End Doc Library
