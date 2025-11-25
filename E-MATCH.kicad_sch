@@ -2158,20 +2158,30 @@
 		(uuid "2873d4dd-7424-4e77-9409-721bfac665db")
 	)
 	(junction
-		(at 45.72 102.87)
+		(at 45.72 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54ae9fef-10f8-4f82-b3c0-15ff50239ddc")
+		(uuid "4eef4453-26e2-437a-96b0-72f469b9a268")
 	)
 	(junction
-		(at 45.72 88.9)
+		(at 45.72 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ffce6e7-0121-4d77-8a3c-578cac77629c")
+		(uuid "8ab67321-fcc6-40c8-b0a0-686394014b5e")
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 45.72 119.38)
+			(xy 172.72 62.23) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126579f0-b971-46d3-91c7-88914e7c57a6")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 45.72 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2198,6 +2208,16 @@
 			(type default)
 		)
 		(uuid "1efb3f07-7dca-4226-a0ba-ac107aaa4fee")
+	)
+	(wire
+		(pts
+			(xy 45.72 85.09) (xy 45.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc6b900-be63-4e8b-8e31-d7cd9b8e98fd")
 	)
 	(wire
 		(pts
@@ -2271,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 45.72 59.69)
+			(xy 45.72 59.69) (xy 45.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2341,6 +2361,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 35.56) (xy 165.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920be404-c811-4a1b-876d-438cc00c1d40")
+	)
+	(wire
+		(pts
 			(xy 50.8 59.69) (xy 50.8 58.42)
 		)
 		(stroke
@@ -2351,26 +2381,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 74.93 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b63da50-7d04-4b76-a1d8-9e55a5e5ee26")
-	)
-	(wire
-		(pts
-			(xy 74.93 88.9) (xy 74.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d98795f-981e-442b-a0cf-c77343a4fd08")
-	)
-	(wire
-		(pts
 			(xy 160.02 87.63) (xy 160.02 90.17)
 		)
 		(stroke
@@ -2378,6 +2388,26 @@
 			(type default)
 		)
 		(uuid "a0b190ae-1a7b-4f80-ae99-ffa31c6da10c")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5eabc41-b5ba-477e-b1bd-8531b845d46c")
+	)
+	(wire
+		(pts
+			(xy 45.72 95.25) (xy 45.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70b4e9b-1e5a-461c-9765-7c2e05150d75")
 	)
 	(wire
 		(pts
@@ -2401,16 +2431,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 91.44) (xy 45.72 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3245552-b5b5-44db-93f1-fdd67e3e68c5")
-	)
-	(wire
-		(pts
 			(xy 45.72 46.99) (xy 49.53 46.99)
 		)
 		(stroke
@@ -2431,16 +2451,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 74.93 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c52592db-4450-4125-8800-5c617bf12acd")
-	)
-	(wire
-		(pts
 			(xy 50.8 59.69) (xy 50.8 60.96)
 		)
 		(stroke
@@ -2448,6 +2458,16 @@
 			(type default)
 		)
 		(uuid "ce5c9a8c-1ae6-4dd6-aca8-d660279ae95e")
+	)
+	(wire
+		(pts
+			(xy 45.72 95.25) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39c3066-6104-4a3e-a7f2-cda4c58e15ca")
 	)
 	(wire
 		(pts
@@ -2501,13 +2521,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 102.87) (xy 74.93 104.14)
+			(xy 57.15 85.09) (xy 45.72 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eabce660-9fec-4580-ad51-0595ac0b0bcf")
+		(uuid "ed5a9be6-97fe-414c-aaf7-c4647637603b")
 	)
 	(global_label "VBAT"
 		(shape input)
@@ -2531,7 +2551,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "5V"
 		(shape input)
 		(at 93.98 45.72 0)
 		(fields_autoplaced yes)
@@ -2543,7 +2563,51 @@
 		)
 		(uuid "20d75591-5137-4a59-ba84-ea5967a38280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4728 45.72 0)
+			(at 99.2633 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 165.1 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "258ef01f-da42-4f2e-9d6b-2f7aa1b2b7f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 30.2767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sensor_Output"
+		(shape input)
+		(at 91.44 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44541b4f-adc2-47a9-854e-c54fee549309")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.0321 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,6 +2630,28 @@
 		(uuid "5376e69c-4613-4b62-8893-df7431357159")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sensor_Output"
+		(shape input)
+		(at 177.8 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9989abd-7309-4337-929b-696b504865b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3921 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2751,7 @@
 	)
 	(symbol
 		(lib_id "Schottky Diode:MBRS540T3G")
-		(at 74.93 99.06 90)
+		(at 57.15 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2674,7 +2760,7 @@
 		(fields_autoplaced yes)
 		(uuid "5445eba3-acca-49ec-936d-b2b2351de63d")
 		(property "Reference" "D1"
-			(at 77.47 97.7899 90)
+			(at 59.69 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2769,7 @@
 			)
 		)
 		(property "Value" "MBRS540T3G"
-			(at 77.47 100.3299 90)
+			(at 59.69 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2778,7 @@
 			)
 		)
 		(property "Footprint" "Schottky Diode:DIOM7959X261N"
-			(at 74.93 99.06 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 99.06 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 99.06 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2806,7 @@
 			)
 		)
 		(property "PARTREV" "7/27/2017"
-			(at 74.93 99.06 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2816,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 74.93 99.06 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2826,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.61 mm"
-			(at 74.93 99.06 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2836,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON SEMICONDUCTOR"
-			(at 74.93 99.06 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
