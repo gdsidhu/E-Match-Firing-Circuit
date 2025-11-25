@@ -3,4 +3,6 @@
   (lib (name "Schottky Diode")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Schottky Diode/MBRS540T3G")(options "")(descr ""))
   (lib (name "Gate Driver")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Gate Driver/NCV81071BZR2G")(options "")(descr ""))
   (lib (name "Current Sensor")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Hall Effect Current Sensor/TMCS1108A2UQDR/footprints.pretty")(options "")(descr ""))
+  (lib (name "Gate Resistor")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Gate_Resistor/RC1206FR-1310RL/footprint.pretty")(options "")(descr ""))
+  (lib (name "Screw_Terminal_0102")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Screw_Terminal_0102")(options "")(descr ""))
 )

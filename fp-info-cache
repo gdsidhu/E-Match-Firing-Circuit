@@ -1,4 +1,4 @@
-25230540171137233
+25237596705597791
 AT28C64B
 28P6_ATM
 
@@ -59072,6 +59072,27 @@ Integrated Circuit
 0
 9
 9
+Gate Resistor
+RES_RC1206_YAG
+
+RC1206FR-1310RL 
+0
+2
+2
+Gate Resistor
+RES_RC1206_YAG-L
+
+RC1206FR-1310RL 
+0
+2
+2
+Gate Resistor
+RES_RC1206_YAG-M
+
+RC1206FR-1310RL 
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -92401,6 +92422,13 @@ rotary encoder illuminated switch vertical
 8
 Schottky Diode
 DIOM7959X261N
+
+
+0
+2
+2
+Screw_Terminal_0102
+691137710002
 
 
 0
