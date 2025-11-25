@@ -1,3 +1,5 @@
 /E-MATCH-backups
 .DS_Store
 .DS_Store
+*.lck
+*.lck
