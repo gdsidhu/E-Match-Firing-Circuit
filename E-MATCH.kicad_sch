@@ -2199,6 +2199,251 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 144.78 30.48)
+		(end 217.17 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a06d5db-3cff-4115-8a26-a9f9999ef887)
+	)
+	(text "Drain"
+		(exclude_from_sim no)
+		(at 70.358 121.158 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30e5828a-09b3-46fb-93e4-4b79ab5cef35")
+	)
+	(text "Source"
+		(exclude_from_sim no)
+		(at 70.358 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "401f45a3-c0b6-487a-a9cd-83567c314d75")
+	)
+	(text "Current Sensor"
+		(exclude_from_sim no)
+		(at 87.376 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4568402e-ddbe-4599-876f-c1f5673034e8")
+	)
+	(text "GATE DRIVER IC"
+		(exclude_from_sim no)
+		(at 151.384 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "526b4eee-22f4-4ea1-800b-87baf7c10bbc")
+	)
+	(text "Outputs"
+		(exclude_from_sim no)
+		(at 196.85 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86f4bc77-c6f4-4f1e-90d7-15b3073ae8fa")
+	)
+	(text "Mosfet Gate"
+		(exclude_from_sim no)
+		(at 81.026 129.54 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "939e0222-a11e-46d0-b34c-c4e4a2eade59")
+	)
+	(text "Resistor to limit gate driving current to around 1 Ampere"
+		(exclude_from_sim no)
+		(at 112.522 125.984 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "9a2e7f6e-0ee2-407c-b4a4-7b4d691d0480")
+	)
+	(text "E-MATCH\ngoes here"
+		(exclude_from_sim no)
+		(at 55.118 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b90f5c7-5c3a-476b-8a48-878be7b8e079")
+	)
+	(text "Arduino Nano(Micro Controller)"
+		(exclude_from_sim no)
+		(at 161.036 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a89d187e-d18d-4a82-9ca4-33c7cd964726")
+	)
+	(text "SCHOTTCKY DIODE"
+		(exclude_from_sim no)
+		(at 94.996 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c384a2d1-d3d8-4384-a2c6-474e9b72a822")
+	)
+	(text "+Battery Voltage(7-8V)"
+		(exclude_from_sim no)
+		(at 73.152 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caf0049c-138d-403c-8486-44f03ca8eb6e")
+	)
+	(text "No connect"
+		(exclude_from_sim no)
+		(at 123.698 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4c58f89-5af6-4dac-938e-7f81e8938b01")
+	)
+	(text "Inputs"
+		(exclude_from_sim no)
+		(at 157.734 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f14cf9d6-1409-4f9b-9bcb-9f5b61cdfd3e")
+	)
+	(text_box "1.Sensor_Output: Analog signal that can easily be converted into current value."
+		(exclude_from_sim no)
+		(at 149.86 85.09 0)
+		(size 19.05 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "294c5aba-d03a-409e-8beb-9a987d4442f8")
+	)
+	(text_box "1. High side current measurement using a hall effect current sensor IC.\n\n2. Sensor output fully isolated from high current path.\n\n3. 100mV increment for each Amp.\n"
+		(exclude_from_sim no)
+		(at 80.01 72.39 0)
+		(size 36.83 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "29b33d79-3ec9-4ff5-b53e-8ed6adf7f3f9")
+	)
+	(text_box "1. Trigger_Signal: To actually switch ON or OFF, with the Gate Driver IC enabled, the MOSFET.\n\n2. Enable_Signal: LOW to disable, High to enable outputs of Gate Driver IC."
+		(exclude_from_sim no)
+		(at 182.118 85.09 0)
+		(size 31.75 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a88fe96d-1050-40aa-bd27-0ffda7e3dbc9")
+	)
+	(text_box "1. To absorb the transient voltage ripple by providing alternate path for current flow during switch off."
+		(exclude_from_sim no)
+		(at 85.09 100.33 0)
+		(size 27.94 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "cad0f51c-ffd9-4dfb-9faf-6e3d6f7db9a8")
+	)
+	(text_box "1.Enable pins are internally pulled up to High with a 200k resistor so are enabled when floating.\n\n2.Takes in Battery Voltage to switch mosfets faster."
+		(exclude_from_sim no)
+		(at 143.51 135.89 0)
+		(size 33.02 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "f40033e6-0a62-4da4-ae45-1300b0a3537b")
+	)
 	(junction
 		(at 76.2 50.8)
 		(diameter 0)
@@ -2225,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 101.6) (xy 196.85 101.6)
+			(xy 177.8 45.72) (xy 177.8 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 129.54) (xy 180.34 129.54)
+			(xy 205.74 58.42) (xy 205.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2365,13 +2610,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 129.54) (xy 180.34 132.08)
+			(xy 205.74 57.15) (xy 208.28 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5647b963-05e7-453f-8a8c-f4c764c09a0e")
+	)
+	(wire
+		(pts
+			(xy 170.18 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c31ce39-0b97-48b2-a8f8-546beb033433")
 	)
 	(wire
 		(pts
@@ -2395,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 74.93) (xy 184.15 76.2)
+			(xy 151.13 53.34) (xy 152.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 127) (xy 179.07 129.54)
+			(xy 203.2 58.42) (xy 205.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2482,6 +2737,16 @@
 			(type default)
 		)
 		(uuid "c1b5bd74-b5e7-4d7d-9217-520c75be06e1")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bce67f-5dc8-479c-8c59-0941db7cf796")
 	)
 	(wire
 		(pts
@@ -2563,6 +2828,16 @@
 		)
 		(uuid "ed5a9be6-97fe-414c-aaf7-c4647637603b")
 	)
+	(wire
+		(pts
+			(xy 180.34 71.12) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1aad925-454b-4dde-b6d4-bc89b5ee80d9")
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 127 140.97 0)
@@ -2609,22 +2884,44 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 184.15 74.93 90)
+		(at 151.13 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "258ef01f-da42-4f2e-9d6b-2f7aa1b2b7f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 69.6467 90)
+			(at 145.8467 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Enable_Signal"
+		(shape input)
+		(at 95.25 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "28b04e91-0629-4f0c-bef4-2c0dbf0af28d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.2669 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2679,13 +2976,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
 		(uuid "7cfa13e9-9854-43f3-9e05-98afc0342f91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.8393 143.51 0)
+			(at 82.1216 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2994,7 @@
 	)
 	(global_label "Trigger_Signal"
 		(shape input)
-		(at 166.37 99.06 180)
+		(at 175.26 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2707,7 +3004,7 @@
 		)
 		(uuid "96e43941-4382-4a7e-884b-96cedf0dfe4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9593 99.06 0)
+			(at 158.8493 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +3016,29 @@
 	)
 	(global_label "Sensor_Output"
 		(shape input)
-		(at 196.85 101.6 0)
+		(at 177.8 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9989abd-7309-4337-929b-696b504865b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.2079 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Enable_Signal"
+		(shape input)
+		(at 180.34 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2727,9 +3046,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a9989abd-7309-4337-929b-696b504865b9")
+		(uuid "bf098d92-fbdb-4114-a94f-0c269e969bdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4421 101.6 0)
+			(at 196.5691 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,6 +3141,73 @@
 			(project ""
 				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b72ed2-1c31-4d67-9073-9def003ad60f")
+		(property "Reference" "#PWR06"
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc077749-59b3-4d36-adb3-74e58f3d860b")
+		)
+		(instances
+			(project "E-MATCH"
+				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3497,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_Nano_v2.x")
-		(at 179.07 101.6 0)
+		(at 177.8 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3120,7 +3506,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a2f596d-9851-4806-993b-916df4484fa2")
 		(property "Reference" "A1"
-			(at 183.7533 127 0)
+			(at 203.2 53.7367 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3515,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_v2.x"
-			(at 183.7533 129.54 0)
+			(at 205.74 53.7367 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3524,7 @@
 			)
 		)
 		(property "Footprint" "Module:Arduino_Nano"
-			(at 179.07 101.6 0)
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3534,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf"
-			(at 179.07 101.6 0)
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3543,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano v2.x"
-			(at 179.07 101.6 0)
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 132.08 0)
+		(at 208.28 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3414,7 +3800,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b32dd3c-bbe5-441d-ab78-7a6bec4af0bd")
 		(property "Reference" "#PWR04"
-			(at 180.34 138.43 0)
+			(at 214.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3809,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 137.16 0)
+			(at 213.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 132.08 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 132.08 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 132.08 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,6 +3916,73 @@
 			(project ""
 				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aad10493-4424-461a-bce1-e93c18dcf06c")
+		(property "Reference" "#PWR05"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b401e180-6091-418d-b7f2-d8ee64c97b17")
+		)
+		(instances
+			(project ""
+				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
