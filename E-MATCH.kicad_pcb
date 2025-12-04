@@ -1098,6 +1098,17 @@
 			(uuid "f82c46ac-e45b-4ef6-b66d-26424cc6aa06")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom E-CAD Models/Mosfet/AOSP36326C.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Gate Driver:SOP65P490X110-9N"
 		(layer "F.Cu")
@@ -1347,15 +1358,15 @@
 			(uuid "de8d5eb7-2447-458d-a8f6-a4ea03b74497")
 		)
 		(embedded_fonts no)
-		(model "NCV81071BZR2G.stp"
+		(model "${KIPRJMOD}/Custom E-CAD Models/Hall Effect Current Sensor/TMCS1108A2UQDR.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.9 0.8 0.5)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1658,6 +1669,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom E-CAD Models/Gate_Resistor/RC1206FR-1310RL.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -0)
+			)
+		)
 	)
 	(footprint "Module:Arduino_Nano"
 		(layer "F.Cu")
@@ -2758,7 +2780,7 @@
 	(footprint "Schottcky Diode:DIODE_MSP3V3"
 		(layer "F.Cu")
 		(uuid "f7afdf58-d89d-4372-9222-6cd55dc2b774")
-		(at 164.9598 99.5)
+		(at 174.4598 100.5)
 		(tags "MSS1P5-M3/89A ")
 		(property "Reference" "CR1"
 			(at 0 0 0)
@@ -3129,11 +3151,22 @@
 			)
 			(polygon
 				(pts
-					(xy 164.9598 98.8523) (xy 165.4932 98.8523) (xy 165.4932 100.1477) (xy 164.9598 100.1477)
+					(xy 174.4598 99.8523) (xy 174.9932 99.8523) (xy 174.9932 101.1477) (xy 174.4598 101.1477)
 				)
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom E-CAD Models/Schottky Diode/MSS1P5-M3:89A/MSMP package.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
