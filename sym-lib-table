@@ -5,4 +5,5 @@
   (lib (name "Gate_Driver")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Gate_Resistor/RC1206FR-1310RL/2025-11-25_23-03-42.kicad_sym")(options "")(descr ""))
   (lib (name "Screw Terminal")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Screw_Terminal_0102/691137710002.kicad_sym")(options "")(descr ""))
   (lib (name "Schottcky Diode")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Schottky Diode/MSS1P5-M3:89A/2025-11-29_22-00-08.kicad_sym")(options "")(descr ""))
+  (lib (name "N-Ch Mosfet")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Mosfet/2025-12-03_23-13-33.kicad_sym")(options "")(descr ""))
 )

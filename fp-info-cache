@@ -1,4 +1,4 @@
-25237596705597791
+25246423011905935
 AT28C64B
 28P6_ATM
 
@@ -69537,6 +69537,27 @@ threaded screw
 0
 4
 1
+N-Ch Mosfet
+SO8SOP-8L_AOS
+
+AOSP36326C 
+0
+8
+8
+N-Ch Mosfet
+SO8SOP-8L_AOS-L
+
+AOSP36326C 
+0
+8
+8
+N-Ch Mosfet
+SO8SOP-8L_AOS-M
+
+AOSP36326C 
+0
+8
+8
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -92420,10 +92441,24 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-Schottky Diode
-DIOM7959X261N
+Schottcky Diode
+DIODE_MSP3V3
 
+MSS1P5-M3/89A 
+0
+2
+2
+Schottcky Diode
+DIODE_MSP3V3-L
 
+MSS1P5-M3/89A 
+0
+2
+2
+Schottcky Diode
+DIODE_MSP3V3-M
+
+MSS1P5-M3/89A 
 0
 2
 2
