@@ -2455,7 +2455,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Screw Terminal:691137710002"
+		(symbol "Screw Terminal:691210910002"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2471,7 +2471,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "691137710002"
+			(property "Value" "691210910002"
 				(at -4.83 -2.58 0)
 				(effects
 					(font
@@ -2480,7 +2480,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Footprint" "691137710002:691137710002"
+			(property "Footprint" "691210910002:691210910002"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2508,7 +2508,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey_Part_Number" "732-10955-ND"
+			(property "DigiKey_Part_Number" "732-691210910002-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2518,7 +2518,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2528,7 +2528,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
+			(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.100 (2.54mm) Through Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2558,7 +2558,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2568,7 +2568,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "691137710002"
+			(property "MP" "691210910002"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2578,7 +2578,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "691137710002_0_0"
+			(symbol "691210910002_0_0"
 				(rectangle
 					(start -3.81 -2.54)
 					(end 1.27 0)
@@ -4392,145 +4392,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Screw Terminal:691137710002")
-		(at 41.91 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "833c90fb-e9d8-4535-98f5-bc6be8c8c20e")
-		(property "Reference" "J2"
-			(at 43.18 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "691137710002"
-			(at 43.18 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Screw_Terminal_0102:691137710002"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "732-10955-ND"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "691137710002"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72d8a7a1-e776-4cf5-988b-c0c2dd754b26")
-		)
-		(pin "1"
-			(uuid "c09c90fa-5433-4ec2-bca6-f5e616047bf0")
-		)
-		(instances
-			(project ""
-				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 250.19 81.28 90)
 		(unit 1)
@@ -4815,6 +4676,145 @@
 			(project ""
 				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Screw Terminal:691210910002")
+		(at 41.91 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d755c2b4-8be4-43ef-9e68-121eb492fc45")
+		(property "Reference" "J1"
+			(at 43.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "691210910002"
+			(at 43.18 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Screw_Terminal:691210910002"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-691210910002-ND"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.100 (2.54mm) Through Hole"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "691210910002"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5df6cca-3308-49b3-bcd7-988bb3489b8e")
+		)
+		(pin "1"
+			(uuid "f058e53f-be7f-4274-8b4e-2f7ab741139d")
+		)
+		(instances
+			(project ""
+				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
+					(reference "J1")
 					(unit 1)
 				)
 			)
