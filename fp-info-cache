@@ -1,4 +1,4 @@
-25246423011905935
+25251728432858421
 AT28C64B
 28P6_ATM
 
@@ -55992,6 +55992,27 @@ TMCS1108A2UQDR
 0
 8
 8
+Current Sensor
+D0008A-IPC_B
+
+TMCS1108A2UQDR 
+0
+8
+8
+Current Sensor
+D0008A-IPC_C
+
+TMCS1108A2UQDR 
+0
+8
+8
+Current Sensor
+D0008A-MFG
+
+TMCS1108A2UQDR 
+0
+8
+8
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -92462,8 +92483,8 @@ MSS1P5-M3/89A
 0
 2
 2
-Screw_Terminal_0102
-691137710002
+Screw_Terminal
+691210910002
 
 
 0
