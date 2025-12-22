@@ -6,4 +6,5 @@
   (lib (name "Screw_Terminal")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Screw Terminal")(options "")(descr ""))
   (lib (name "Schottcky Diode")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Schottky Diode/MSS1P5-M3:89A/footprints.pretty")(options "")(descr ""))
   (lib (name "N-Ch Mosfet")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Mosfet/ul_AOSP36326C")(options "")(descr ""))
+  (lib (name "DC-Jack")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/DC-Jack")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-25251728432858421
+25253515593650406
 AT28C64B
 28P6_ATM
 
@@ -56013,6 +56013,13 @@ TMCS1108A2UQDR
 0
 8
 8
+DC-Jack
+TENSILITY_54-00130
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
