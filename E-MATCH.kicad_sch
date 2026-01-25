@@ -1626,19 +1626,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 26.67 7.62 0)
+				(at 5.334 5.842 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 					(justify left top)
 				)
 			)
 			(property "Value" "NCV81071BZR2G"
-				(at 26.67 5.08 0)
+				(at 5.334 3.556 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 					(justify left top)
 				)
@@ -1664,7 +1664,7 @@
 				)
 			)
 			(property "Description" "Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP"
-				(at 0 0 0)
+				(at 15.494 10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1744,8 +1744,8 @@
 			)
 			(symbol "NCV81071BZR2G_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -15.24)
+					(start 5.08 1.27)
+					(end 19.05 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1760,14 +1760,14 @@
 					(name "ENA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1778,14 +1778,14 @@
 					(name "INA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1796,14 +1796,14 @@
 					(name "ENB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1814,104 +1814,104 @@
 					(name "INB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 15.24 -20.32 90)
+					(at 12.3103 -15.2049 90)
 					(length 5.08)
 					(name "EP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 30.48 0 180)
+					(at 24.13 0 180)
 					(length 5.08)
 					(name "VDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 30.48 -2.54 180)
+					(at 24.13 -2.54 180)
 					(length 5.08)
 					(name "OUTA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 30.48 -5.08 180)
+					(at 24.13 -5.08 180)
 					(length 5.08)
 					(name "OUTB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 30.48 -7.62 180)
+					(at 24.13 -7.62 180)
 					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3327,6 +3327,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NCV81071BZR2G_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 5.334 5.842 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NCV81071BZR2G"
+				(at 5.334 3.556 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP65P490X110-9N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv81071-d.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP"
+				(at 15.494 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NCV81071BZR2G"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "NCV81071BZR2G_1_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 19.05 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "INA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "ENB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "INB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.3103 -15.2049 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 0 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -2.54 180)
+					(length 5.08)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -5.08 180)
+					(length 5.08)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Schottcky Diode:MSS1P5-M3_89A"
 			(pin_names
 				(offset 0.254)
@@ -4089,7 +4387,7 @@
 	)
 	(text "No connect"
 		(exclude_from_sim no)
-		(at 239.014 45.212 0)
+		(at 239.014 39.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4130,7 +4428,7 @@
 	)
 	(text "No connect"
 		(exclude_from_sim no)
-		(at 240.284 82.042 0)
+		(at 239.522 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4373,11 +4671,11 @@
 		(uuid "f7faeef8-c93b-4dc4-be4b-7c1acef8b101")
 	)
 	(no_connect
-		(at 240.03 78.74)
+		(at 239.6403 59.6549)
 		(uuid "54ff9056-e701-4018-894a-778c64f948a2")
 	)
 	(no_connect
-		(at 238.76 41.91)
+		(at 238.8783 36.7949)
 		(uuid "7a1e65bd-c917-4303-a337-6cafe55f4e84")
 	)
 	(no_connect
@@ -4466,6 +4764,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.698 21.59) (xy 255.27 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ec8a2d-2dfe-45ea-a55a-7b28e042eb75")
+	)
+	(wire
+		(pts
 			(xy 46.99 95.25) (xy 46.99 99.06)
 		)
 		(stroke
@@ -4486,6 +4794,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 49.53) (xy 224.79 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19280676-d343-4a7b-aa72-f8c9c7af2b33")
+	)
+	(wire
+		(pts
 			(xy 36.83 38.1) (xy 44.45 38.1)
 		)
 		(stroke
@@ -4493,16 +4811,6 @@
 			(type default)
 		)
 		(uuid "1b325d37-c001-40df-8a10-95e6395d3aee")
-	)
-	(wire
-		(pts
-			(xy 254 21.59) (xy 255.27 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bfcadb2-42ac-4bb1-a250-97a4a3b687b6")
 	)
 	(wire
 		(pts
@@ -4516,6 +4824,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 46.99) (xy 224.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f10b474-bb39-48cb-9bc1-182f65e75c11")
+	)
+	(wire
+		(pts
+			(xy 223.52 24.13) (xy 226.568 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd63efe-963e-4bea-b31a-a97f60ed9c48")
+	)
+	(wire
+		(pts
 			(xy 102.87 123.19) (xy 105.41 123.19)
 		)
 		(stroke
@@ -4526,36 +4854,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 60.96) (xy 256.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20f4962d-dbbc-4325-972d-981156111686")
-	)
-	(wire
-		(pts
-			(xy 255.27 63.5) (xy 256.54 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23144b9a-c884-4a13-98ae-60f76f258b34")
-	)
-	(wire
-		(pts
-			(xy 255.27 58.42) (xy 256.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "284b0155-877e-4b22-af5c-d68108c7b8a7")
-	)
-	(wire
-		(pts
 			(xy 158.75 22.86) (xy 157.48 22.86)
 		)
 		(stroke
@@ -4563,6 +4861,16 @@
 			(type default)
 		)
 		(uuid "2d902af4-6fbb-47b4-b8aa-ccedebc00cf2")
+	)
+	(wire
+		(pts
+			(xy 250.698 26.67) (xy 256.54 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e69e15-36d1-4048-9f6f-903202854b1d")
 	)
 	(wire
 		(pts
@@ -4656,6 +4964,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.698 24.13) (xy 256.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a54e1a-d79d-407b-8330-7976a73cde01")
+	)
+	(wire
+		(pts
 			(xy 83.82 99.06) (xy 87.63 99.06)
 		)
 		(stroke
@@ -4736,6 +5054,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 26.67) (xy 226.568 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a87da9-ee48-44df-9789-7f48877bda22")
+	)
+	(wire
+		(pts
 			(xy 157.48 22.86) (xy 157.48 20.32)
 		)
 		(stroke
@@ -4756,6 +5084,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.698 29.21) (xy 254 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eef44d7-e0d4-4075-9742-febc1b885a32")
+	)
+	(wire
+		(pts
 			(xy 49.53 69.85) (xy 57.15 69.85)
 		)
 		(stroke
@@ -4773,6 +5111,16 @@
 			(type default)
 		)
 		(uuid "6178d5f7-bdf0-4761-9e3c-ffc63e32b978")
+	)
+	(wire
+		(pts
+			(xy 251.46 49.53) (xy 256.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62225f67-b16c-423d-932b-38cbc7657e55")
 	)
 	(wire
 		(pts
@@ -4906,6 +5254,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 29.21) (xy 226.568 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ab7332-bb47-4bb6-a2d9-3b75be0b7c77")
+	)
+	(wire
+		(pts
 			(xy 86.36 69.85) (xy 86.36 88.9)
 		)
 		(stroke
@@ -4993,16 +5351,6 @@
 			(type default)
 		)
 		(uuid "84830214-a4a3-4153-8102-932144dbbc02")
-	)
-	(wire
-		(pts
-			(xy 254 26.67) (xy 256.54 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8689fb8b-9de2-46d7-a195-12de7fd08014")
 	)
 	(wire
 		(pts
@@ -5136,16 +5484,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 37.465) (xy 92.075 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b860b8fb-d46a-4a1c-a31d-2745d613e95a")
-	)
-	(wire
-		(pts
 			(xy 82.55 99.06) (xy 83.82 99.06)
 		)
 		(stroke
@@ -5183,6 +5521,16 @@
 			(type default)
 		)
 		(uuid "bcd340f1-b06d-429f-b810-8934ac1928a4")
+	)
+	(wire
+		(pts
+			(xy 224.79 44.45) (xy 227.33 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd498e17-2a68-4193-8770-a9e27f597b3f")
 	)
 	(wire
 		(pts
@@ -5236,16 +5584,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 24.13) (xy 256.54 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debfbf45-c74d-4683-a8a4-f32f387cf479")
-	)
-	(wire
-		(pts
 			(xy 83.82 88.9) (xy 86.36 88.9)
 		)
 		(stroke
@@ -5253,6 +5591,16 @@
 			(type default)
 		)
 		(uuid "df4e27cf-760b-46f5-b816-a2d080076336")
+	)
+	(wire
+		(pts
+			(xy 227.33 52.07) (xy 224.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47dd8fe-76f8-4f37-a36a-b45c689b1683")
 	)
 	(wire
 		(pts
@@ -5276,6 +5624,36 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 21.59) (xy 226.568 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d79fcb-cafe-49eb-bcdc-bc2d12605b80")
+	)
+	(wire
+		(pts
+			(xy 251.46 44.45) (xy 256.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f6df62-47e4-49a6-aca8-528e57d03308")
+	)
+	(wire
+		(pts
+			(xy 251.46 52.07) (xy 255.27 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0068577-202a-4d91-9296-587edda62ce4")
+	)
+	(wire
+		(pts
 			(xy 44.45 38.1) (xy 44.45 40.64)
 		)
 		(stroke
@@ -5293,6 +5671,16 @@
 			(type default)
 		)
 		(uuid "f74c29e0-f25c-4a92-804c-7f596f8bde97")
+	)
+	(wire
+		(pts
+			(xy 251.46 46.99) (xy 256.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc24bc54-5263-4481-9d68-409ad5212d0f")
 	)
 	(wire
 		(pts
@@ -5328,7 +5716,7 @@
 	)
 	(global_label "Gate_Drive3"
 		(shape output)
-		(at 256.54 60.96 0)
+		(at 256.54 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5338,7 +5726,7 @@
 		)
 		(uuid "19e6f97c-2d76-425e-a6b9-be30fc56832c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.8301 60.96 0)
+			(at 267.8301 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5826,7 @@
 	)
 	(global_label "Enable_Signal3"
 		(shape input)
-		(at 224.79 58.42 180)
+		(at 224.79 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5448,7 +5836,7 @@
 		)
 		(uuid "28ba0414-0888-40b8-81b9-a5c60c848fff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8393 58.42 0)
+			(at 210.8393 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5848,7 @@
 	)
 	(global_label "Trigger_Signal3"
 		(shape input)
-		(at 224.79 60.96 180)
+		(at 224.79 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5470,7 +5858,7 @@
 		)
 		(uuid "3a478c91-fa43-43c6-974f-52f48b8ad465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.694 60.96 0)
+			(at 210.694 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5870,7 @@
 	)
 	(global_label "Trigger_Signal4"
 		(shape input)
-		(at 224.79 66.04 180)
+		(at 224.79 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5492,7 +5880,7 @@
 		)
 		(uuid "4084a6e0-cf36-43fe-a96e-961932f97f8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.694 66.04 0)
+			(at 210.694 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +6024,7 @@
 	)
 	(global_label "Enable_Signal4"
 		(shape input)
-		(at 224.79 63.5 180)
+		(at 224.79 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5646,7 +6034,7 @@
 		)
 		(uuid "711e6fe0-d64a-4d00-b882-b3b2933c64fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8393 63.5 0)
+			(at 210.8393 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +6068,7 @@
 	)
 	(global_label "Gate_Drive4"
 		(shape output)
-		(at 256.54 63.5 0)
+		(at 256.54 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5690,7 +6078,7 @@
 		)
 		(uuid "7c6f35e0-67e6-4e56-be66-9acd420d6ad2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.8301 63.5 0)
+			(at 267.8301 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6332,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 256.54 58.42 0)
+		(at 256.54 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5954,7 +6342,7 @@
 		)
 		(uuid "f7e7fafb-0a13-453b-93ed-b2df124c40de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.94 58.42 0)
+			(at 263.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,16 +6515,15 @@
 	)
 	(symbol
 		(lib_id "Gate Driver:NCV81071BZR2G")
-		(at 224.79 58.42 0)
+		(at 227.33 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36fd733b-f7c4-4e4d-b7a0-bb1d67deae6a")
 		(property "Reference" "IC2"
-			(at 240.03 53.34 0)
+			(at 234.696 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6531,7 @@
 			)
 		)
 		(property "Value" "NCV81071BZR2G"
-			(at 240.03 53.34 0)
+			(at 242.57 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,8 +6539,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gate Driver:SOP65P490X110-9N"
-			(at 251.46 153.34 0)
+		(property "Footprint" "SOP65P490X110-9N"
+			(at 254 139.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6163,7 +6550,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv81071-d.pdf"
-			(at 251.46 253.34 0)
+			(at 254 239.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6560,7 @@
 			)
 		)
 		(property "Description" "Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP"
-			(at 224.79 58.42 0)
+			(at 227.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6569,7 @@
 			)
 		)
 		(property "Description_1" "Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP"
-			(at 251.46 60.96 0)
+			(at 254 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6579,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 251.46 453.34 0)
+			(at 254 439.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6589,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 251.46 553.34 0)
+			(at 254 539.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6599,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NCV81071BZR2G"
-			(at 251.46 653.34 0)
+			(at 254 639.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6609,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 251.46 753.34 0)
+			(at 254 739.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6619,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 251.46 853.34 0)
+			(at 254 839.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6629,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 251.46 953.34 0)
+			(at 254 939.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6639,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 251.46 1053.34 0)
+			(at 254 1039.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,178 +6885,6 @@
 			(project "E-MATCH"
 				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Gate Driver:NCV81071BZR2G")
-		(at 223.52 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bea221a-e7c7-4eb6-9562-210bcd1a7feb")
-		(property "Reference" "IC1"
-			(at 238.76 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCV81071BZR2G"
-			(at 238.76 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gate Driver:SOP65P490X110-9N"
-			(at 250.19 116.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv81071-d.pdf"
-			(at 250.19 216.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP"
-			(at 223.52 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP"
-			(at 250.19 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 250.19 416.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 250.19 516.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NCV81071BZR2G"
-			(at 250.19 616.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 250.19 716.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 250.19 816.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 250.19 916.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 250.19 1016.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "ba5773fb-fb14-4eaa-a352-f3715ec16916")
-		)
-		(pin "4"
-			(uuid "40ef5971-3f22-424f-af14-8e52b18ce411")
-		)
-		(pin "2"
-			(uuid "c9389d56-4b5b-430b-818f-9c43019fb9f0")
-		)
-		(pin "7"
-			(uuid "a1afe8d2-e5b2-448f-b658-204a7d452bfe")
-		)
-		(pin "1"
-			(uuid "5df491b2-f45c-4ca5-a0b8-3af072ed0f98")
-		)
-		(pin "5"
-			(uuid "9a7837c0-bc2a-467a-b03d-38795aa930cb")
-		)
-		(pin "9"
-			(uuid "3395afdd-69a7-4a60-aa68-bf8ea0b328f2")
-		)
-		(pin "3"
-			(uuid "4bf4b3f7-d548-49d3-82be-7d94f4196acb")
-		)
-		(pin "8"
-			(uuid "d639a7d5-a928-4202-9913-4e3381fa1107")
-		)
-		(instances
-			(project ""
-				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -7063,6 +7278,168 @@
 		)
 	)
 	(symbol
+		(lib_name "NCV81071BZR2G_1")
+		(lib_id "Gate Driver:NCV81071BZR2G")
+		(at 226.568 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7abc4d45-96e3-452a-80c0-f46542b88556")
+		(property "Reference" "IC1"
+			(at 238.633 15.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "NCV81071BZR2G"
+			(at 238.633 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "SOP65P490X110-9N"
+			(at 253.238 116.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv81071-d.pdf"
+			(at 253.238 216.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Side Gate Driver IC CMOS, TTL 8-MSOP-EP"
+			(at 242.062 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 253.238 416.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 253.238 516.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCV81071BZR2G"
+			(at 253.238 616.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 253.238 716.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 253.238 816.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 253.238 916.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 253.238 1016.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e1a7f391-ac07-40ef-9c93-3dac686f02df")
+		)
+		(pin "6"
+			(uuid "37187fb9-ac89-4f5a-8633-ca5703b4f2cc")
+		)
+		(pin "7"
+			(uuid "28c36a27-f635-40cd-8448-19a91f504f82")
+		)
+		(pin "8"
+			(uuid "2c6604e9-5943-411e-963c-1b4e3fda0be5")
+		)
+		(pin "1"
+			(uuid "c2364404-7d03-464f-b39e-5c27b3885b42")
+		)
+		(pin "2"
+			(uuid "97d74731-c05e-4f7f-adef-853ee81291a7")
+		)
+		(pin "3"
+			(uuid "ae2ba63d-4ae3-4982-ad6f-f5ec4fe48436")
+		)
+		(pin "9"
+			(uuid "500d81bc-d50a-434a-ba25-ee0d060db5d7")
+		)
+		(pin "4"
+			(uuid "02a3d3f4-6242-4e01-91d2-b2a467939d8c")
+		)
+		(instances
+			(project ""
+				(path "/ac49d8b8-9946-4b6b-9646-a2b20606c52a"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Schottcky Diode:MSS1P5-M3_89A")
 		(at 105.41 99.06 90)
 		(unit 1)
@@ -7269,7 +7646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 66.04 90)
+		(at 255.27 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7278,7 +7655,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c399189-84a5-42f6-a5f8-bdd6103a8f95")
 		(property "Reference" "#PWR09"
-			(at 261.62 66.04 0)
+			(at 261.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,7 +7664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 66.0399 90)
+			(at 259.08 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +7673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 66.04 0)
+			(at 255.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 66.04 0)
+			(at 255.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 66.04 0)
+			(at 255.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

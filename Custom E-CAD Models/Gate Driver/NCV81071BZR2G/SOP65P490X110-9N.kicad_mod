@@ -6,13 +6,13 @@
 	(descr "MSOP8 EP, 3x3 CASE 846AM ISSUE B")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0.1 2.8 0)
 		(layer "F.SilkS")
 		(uuid "fa0fa117-dfdf-4aed-b089-11e8f4c6165f")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -62,6 +62,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "63d7e528-6f63-4edf-910a-ca3364ec4706")
+	)
+	(fp_rect
+		(start -3.3 -2)
+		(end 3.3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "af0244f7-dfa6-4ddc-bdf1-d6d3d913a18b")
 	)
 	(fp_line
 		(start -3.15 -1.8)
@@ -152,17 +163,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "fe6d8186-cbea-4628-8b2e-c3dd8e9d5198")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "dd7e1d3e-2575-453e-91bb-044bba5f1487")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-			)
-		)
 	)
 	(pad "1" smd rect
 		(at -2.2 -0.975 90)

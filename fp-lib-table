@@ -4,7 +4,7 @@
   (lib (name "Current Sensor")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Hall Effect Current Sensor/ul_TMCS1108A2UQDR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Gate Resistor")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Gate_Resistor/RC1206FR-1310RL/footprint.pretty")(options "")(descr ""))
   (lib (name "Screw_Terminal")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Screw Terminal")(options "")(descr ""))
-  (lib (name "Schottcky Diode")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Schottky Diode/MSS1P5-M3:89A/footprints.pretty")(options "")(descr ""))
+  (lib (name "Schottcky Diode")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Schottky Diode/MSS1P5-M3-89A/footprints.pretty")(options "")(descr ""))
   (lib (name "N-Ch Mosfet")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Mosfet/ul_AOSP36326C")(options "")(descr ""))
   (lib (name "DC-Jack")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/DC-Jack")(options "")(descr ""))
 )
