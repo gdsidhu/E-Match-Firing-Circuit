@@ -199,7 +199,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "342c8208-c574-4faa-87a7-f0319a37269d")
+			(uuid "6bb83a3f-8a34-4ceb-8b13-1cb0303df6d3")
 			(effects
 				(font
 					(size 1 1)
@@ -211,7 +211,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "c5ab6275-6419-48eb-a852-15c7bdba8089")
+			(uuid "471c3990-6beb-4314-8e08-88edbd2d5318")
 			(effects
 				(font
 					(size 1 1)
@@ -223,7 +223,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d391781c-d984-404d-b7c1-bc314dd7ac88")
+			(uuid "f782800d-7b92-4a65-a0c2-ccbd7522eaba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +235,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "922c9bf3-e9b0-4b04-adc2-6cc9f3855c2f")
+			(uuid "dcac2869-8788-405e-845c-e82a8ae33e72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4794,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8d49b579-5348-41d9-949b-d0b01f0521ff")
+			(uuid "198414cb-777c-40ad-bc91-bf924d0b17f8")
 			(effects
 				(font
 					(size 1 1)
@@ -4806,7 +4806,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4db5285c-5c49-4486-b247-a105b1a6fec5")
+			(uuid "84e46c36-d26c-4737-a165-60d705dd9111")
 			(effects
 				(font
 					(size 1 1)
@@ -4818,7 +4818,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99ac67a5-7797-40fb-b240-4983c1936465")
+			(uuid "4b2f1988-a5a0-4194-9940-03ef005145d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +4830,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be80fc3b-55ce-445d-be45-1f277881faa9")
+			(uuid "a0a98276-c0e7-437b-8251-8b9db08f9c81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5105,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9062cea7-0343-4385-9c6c-13f29cfe675d")
+			(uuid "e7a419fc-fda0-4193-9c9a-581c99a3f425")
 			(effects
 				(font
 					(size 1 1)
@@ -5117,7 +5117,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8b913136-d5bd-4a9c-9ad7-4b9541bfd7fb")
+			(uuid "5c66e570-61ac-4949-b5d8-6b72d9967ac6")
 			(effects
 				(font
 					(size 1 1)
@@ -5129,7 +5129,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd80e774-831f-4175-8bb2-8002fa71ff43")
+			(uuid "53aecbd8-a406-4e20-87b5-3e8827c7ac09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5141,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "922711b3-a0c4-4a43-9415-421b4305efbe")
+			(uuid "14026389-a060-4f24-a705-181b9b98335a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7529,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5fa8e95c-03d8-49c0-af63-c9360b3383d1")
+			(uuid "d1d1b754-23a6-4217-946d-1c77cf851ef9")
 			(effects
 				(font
 					(size 1 1)
@@ -7541,7 +7541,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4268ee91-26d3-4ca6-a9fc-f91c3ead7bd3")
+			(uuid "cc12a2ce-de01-47e8-96d3-6fe1ced3afe6")
 			(effects
 				(font
 					(size 1 1)
@@ -7553,7 +7553,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "809a903d-f8ae-4140-ad9b-c2dd6e07ce4b")
+			(uuid "6fea47e8-3294-42f7-ad90-dd5613d3aa0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7565,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bed712a9-6280-4c60-b3f4-f8056c140383")
+			(uuid "03f673d3-a5db-4525-9860-253f984f0be5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9078,7 @@
 	(footprint "Smd_Led:LED_LTST-C170GKT_LTO"
 		(layer "F.Cu")
 		(uuid "ffd49c90-9e11-4a12-96b2-92c7e6e3ffff")
-		(at 4.0132 0.9525)
+		(at 169.6959 96.75)
 		(tags "LTST-C170GKT ")
 		(property "Reference" "LED1"
 			(at 0 0 0)
@@ -9628,11 +9628,22 @@
 			)
 			(polygon
 				(pts
-					(xy 3.6068 0.381) (xy 4.4196 0.381) (xy 4.4196 1.524) (xy 3.6068 1.524)
+					(xy 169.2895 96.1785) (xy 170.1023 96.1785) (xy 170.1023 97.3215) (xy 169.2895 97.3215)
 				)
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom E-CAD Models/3D Models/SMD-Led/LED_LTST-C170GKT_LTO.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
