@@ -5283,12 +5283,12 @@
 		)
 		(uuid "b13b3998-e420-4a15-a9f9-12659872cb46")
 	)
-	(text "LED Connection to 5V in current sensor"
+	(text "LED INDICATORS"
 		(exclude_from_sim no)
-		(at 44.958 168.656 0)
+		(at 42.418 173.482 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 4.318 4.318)
 			)
 		)
 		(uuid "b23f881c-826f-470d-a018-e39644c26088")
@@ -5546,16 +5546,6 @@
 	(no_connect
 		(at 81.28 58.42)
 		(uuid "9f08b7f7-0294-4da6-b30a-91f27a46926f")
-	)
-	(wire
-		(pts
-			(xy 34.29 175.26) (xy 34.29 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001826e0-fe1d-47f5-8796-ae508a2370e7")
 	)
 	(wire
 		(pts
@@ -5826,16 +5816,6 @@
 			(type default)
 		)
 		(uuid "67a5bc77-7f67-4b39-b9e4-da84716a7a9f")
-	)
-	(wire
-		(pts
-			(xy 31.75 191.77) (xy 22.86 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67adf98e-e798-4bd5-9c15-8eee1abc2d60")
 	)
 	(wire
 		(pts
@@ -6119,17 +6099,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 180.34) (xy 55.88 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2a28a4e-6ed5-4313-bd3d-b31fbe6fbc07")
-	)
-	(wire
-		(pts
-			(xy 54.61 180.34) (xy 55.88 180.34)
+			(xy 111.76 181.61) (xy 113.03 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6169,16 +6139,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 175.26) (xy 34.29 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b86f9664-6373-4b68-8d81-b1c2b9e7c634")
-	)
-	(wire
-		(pts
 			(xy 71.12 83.82) (xy 73.66 83.82)
 		)
 		(stroke
@@ -6206,16 +6166,6 @@
 			(type default)
 		)
 		(uuid "bb84c214-6608-4e11-8043-546543e440c3")
-	)
-	(wire
-		(pts
-			(xy 55.88 194.31) (xy 31.75 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be4db139-11f9-4135-a822-99a3d55b2392")
 	)
 	(wire
 		(pts
@@ -6279,16 +6229,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 180.34) (xy 21.59 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c58c18-2c85-4e65-a693-dab01376bb22")
-	)
-	(wire
-		(pts
 			(xy 40.64 48.26) (xy 40.64 49.53)
 		)
 		(stroke
@@ -6306,16 +6246,6 @@
 			(type default)
 		)
 		(uuid "e7d4aa18-ab35-4352-857e-463f46eb82a1")
-	)
-	(wire
-		(pts
-			(xy 31.75 194.31) (xy 31.75 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00440cd-8990-42cc-85d4-f9083208dd8d")
 	)
 	(wire
 		(pts
@@ -6931,22 +6861,22 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 21.59 180.34 0)
+		(at 91.44 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e2a27c01-fe09-43ee-8aa8-13ef83c3cefa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8733 180.34 0)
+			(at 86.1567 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7063,7 +6993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 191.77 270)
+		(at 123.19 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7072,7 +7002,7 @@
 		(fields_autoplaced yes)
 		(uuid "01ce6837-bcc9-4ba1-aa80-2f13615ded21")
 		(property "Reference" "#PWR08"
-			(at 16.51 191.77 0)
+			(at 129.54 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 191.7699 90)
+			(at 127 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 191.77 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 191.77 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 191.77 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7640,7 @@
 	)
 	(symbol
 		(lib_id "RC0603JR-07330RL:RC0603JR-07330RL")
-		(at 44.45 180.34 0)
+		(at 101.6 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7719,7 +7649,7 @@
 		(fields_autoplaced yes)
 		(uuid "47f672df-7501-41b1-8618-ae376957e78b")
 		(property "Reference" "R5"
-			(at 44.45 173.99 0)
+			(at 101.6 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,7 +7657,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 44.45 176.53 0)
+			(at 101.6 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7665,7 @@
 			)
 		)
 		(property "Footprint" "SMD_RESISTOR:RESC1608X55N"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +7684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7693,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-330GRCT-ND"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +7703,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603JR-07330RL/Yageo/view-part/?ref=snap"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +7713,7 @@
 			)
 		)
 		(property "Description_1" "330 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +7723,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +7733,7 @@
 			)
 		)
 		(property "Package" "1608 Yageo"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7813,7 +7743,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC0603JR-07330RL/Yageo/view-part/?ref=eda"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,7 +7753,7 @@
 			)
 		)
 		(property "MP" "RC0603JR-07330RL"
-			(at 44.45 180.34 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8664,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170GKT:LTST-C170GKT")
-		(at 55.88 184.15 270)
+		(at 113.03 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8743,25 +8673,23 @@
 		(fields_autoplaced yes)
 		(uuid "9c1a6915-ab85-4ad6-956d-b58a2af6084b")
 		(property "Reference" "LED1"
-			(at 62.23 189.2299 90)
+			(at 119.38 171.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "LTST-C170GKT"
-			(at 62.23 191.7699 90)
+			(at 119.38 173.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "LED_LTST-C170GKT_LTO"
-			(at 55.88 184.15 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +8699,7 @@
 			)
 		)
 		(property "Datasheet" "LTST-C170GKT"
-			(at 55.88 184.15 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +8709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 184.15 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
