@@ -3878,7 +3878,7 @@
 	(footprint "SMD_RESISTOR:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "58d1ce8c-7cf1-4728-b7ac-1df396dfe8e7")
-		(at 174.68 110.5)
+		(at 155.82 115.25)
 		(property "Reference" "R5"
 			(at -0.21 -1.05 0)
 			(layer "F.SilkS")
@@ -4141,13 +4141,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Custom E-CAD Models/SMD-Resistor/RC0603JR-07330RL/RC0603JR-07330RL.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8926,6 +8926,17 @@
 			(uuid "cf74bda7-dae3-4066-9a1d-8950e26e2f83")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom E-CAD Models/3D Models/Current Sensor/D0008A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Screw_Terminal:691210910002"
 		(layer "F.Cu")
