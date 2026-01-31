@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "ac49d8b8-9946-4b6b-9646-a2b20606c52a")
 	(paper "A4")
+	(title_block
+		(title "E-match Firing Circuit")
+		(date "2026-01-29")
+		(rev "v1.0")
+	)
 	(lib_symbols
 		(symbol "AOSP36326C_1"
 			(pin_names
