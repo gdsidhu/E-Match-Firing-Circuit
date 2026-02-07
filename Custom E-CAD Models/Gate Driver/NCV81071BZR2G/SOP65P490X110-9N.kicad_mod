@@ -6,13 +6,14 @@
 	(descr "MSOP8 EP, 3x3 CASE 846AM ISSUE B")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0.1 2.8 0)
+		(at 0 -2.6 0)
 		(layer "F.SilkS")
 		(uuid "fa0fa117-dfdf-4aed-b089-11e8f4c6165f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -54,25 +55,35 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.9 -1.55)
-		(end -1.5 -1.55)
+		(start -1.504473 1.709909)
+		(end 1.495527 1.709909)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "63d7e528-6f63-4edf-910a-ca3364ec4706")
+		(uuid "07f80e5a-fe50-48eb-bfeb-a0a4c1e3d55f")
 	)
-	(fp_rect
-		(start -3.3 -2)
-		(end 3.3 2)
+	(fp_line
+		(start -1.492866 -1.702888)
+		(end 1.507134 -1.702888)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a162182f-ffc7-46f1-9c56-fc10a601544f")
+	)
+	(fp_circle
+		(center -1.066282 -1.182737)
+		(end -0.966282 -1.082737)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "af0244f7-dfa6-4ddc-bdf1-d6d3d913a18b")
+		(uuid "dc50a283-2748-4b70-afd2-f2fbd487df7d")
 	)
 	(fp_line
 		(start -3.15 -1.8)
