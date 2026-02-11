@@ -10,4 +10,5 @@
   (lib (name "Smd_Led")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/SMD-Led/ul_LTST-C170GKT/Smd_Led.pretty")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/SMD-Resistor/RC0603JR-07330RL/Library.pretty")(options "")(descr ""))
   (lib (name "SMD_RESISTOR")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/SMD-Resistor/RC0603JR-07330RL/SMD_RESISTOR.pretty")(options "")(descr ""))
+  (lib (name "0.1 uF Cap")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/0.1uf Cap/ul_C0603C104K5RAC3121/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
