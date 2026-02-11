@@ -5,14 +5,15 @@
 	(layer "F.Cu")
 	(tags "MSS1P5-M3/89A ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "eb1221ce-2598-4b64-adee-3d9bad00dfca")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)

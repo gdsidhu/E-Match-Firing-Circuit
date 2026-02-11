@@ -4,13 +4,14 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.21 -1.05 0)
+		(at 0.1 -1.05 0)
 		(layer "F.SilkS")
 		(uuid "e59431c9-e6ce-4c7a-bd38-b312df34f05e")
 		(effects
 			(font
-				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
