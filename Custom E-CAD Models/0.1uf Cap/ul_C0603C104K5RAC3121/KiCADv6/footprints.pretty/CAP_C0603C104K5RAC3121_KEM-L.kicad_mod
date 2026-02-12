@@ -313,4 +313,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Custom E-CAD Models/3D Models/0.1 uf Cap/CAP_C0603C104K5RAC3121_KEM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
