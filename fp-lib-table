@@ -11,4 +11,6 @@
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/SMD-Resistor/RC0603JR-07330RL/Library.pretty")(options "")(descr ""))
   (lib (name "SMD_RESISTOR")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/SMD-Resistor/RC0603JR-07330RL/SMD_RESISTOR.pretty")(options "")(descr ""))
   (lib (name "0.1 uF Cap")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/0.1uf Cap/ul_C0603C104K5RAC3121/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "FDC8878")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Mosfet/ul_FDC8878/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "FDD1600N10ALZ")(type "KiCad")(uri "${KIPRJMOD}/Custom E-CAD Models/Mosfet/ul_FDD1600N10ALZ/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
